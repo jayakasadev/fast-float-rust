@@ -18,11 +18,11 @@ default = ["std"]
 std = []
 
 [dev-dependencies]
-lexical-core = "0.7"
-hexf-parse = "0.1"
-ryu = "1.0"
-fastrand = "1.4"
-num-bigint = "0.3"
+lexical-core = "1"
+hexf-parse = "0.2"
+ryu = "1"
+fastrand = "2"
+num-bigint = "0.4"
 
 [workspace]
 members = [".", "extras/data-tests", "extras/simple-bench"]
